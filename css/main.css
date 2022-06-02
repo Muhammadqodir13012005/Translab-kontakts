@@ -1,8 +1,5 @@
 @import url(fonts.css);
 @import url(reset.css);
-
-/* .header {} */
-
 .wrap {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -103,9 +100,6 @@
 .menu li a:hover::after {
 	display: block;
 }
-
-/* .main {} */
-
 .title {
 	background: url(../img/titlebg.png) 50%/cover no-repeat;
 	padding: 60px 0;
@@ -147,10 +141,6 @@
 	opacity: 0.7;
 	color: #fff;
 }
-/* .block{
-    max-width: 1140px;
-    margin: 0 auto;
-} */
 .container4{
     padding-top: 120px;
     max-width: 1140px;
@@ -177,13 +167,11 @@
 .p1{
     width: 235px;
     font-size: 20px;
-    font-family: pro-sb;
 }
 .p2{
     font-size: 20px;
     width: 184px;
     font-size: 20px;
-    font-family: pro-sb;
 }
 .p3{
     width: 196px;
@@ -335,8 +323,8 @@ margin-top: 120px;
 	flex-flow: column wrap;
 	row-gap: 26px;
 }
-.list2 a,
-.list3 a:hover{
+.list2 li a,
+.list3 li a:hover{
 	color:#529fd0;
 }
 	
