@@ -176,22 +176,22 @@
 .p1{
     width: 235px;
     font-size: 20px;
-	font-family: pro-sb;
+    font-family: pro-sb;
 }
 .p2{
     font-size: 20px;
     width: 184px;
     font-size: 20px;
-	font-family: pro-sb;
+    font-family: pro-sb;
 }
 .p3{
     width: 196px;
     font-size: 20px;
-	font-family: pro-sb;
+    font-family: pro-sb;
 }
 .p4{
     font-size: 20px;
-	font-family: pro-sb;
+    font-family: pro-sb;
 }
 .block5{
     max-width: 550px;
@@ -357,7 +357,7 @@ margin-top: 120px;
 	color: #fff;
 	font-family: pro-sb;
 	letter-spacing: 0.5px;
-    font-size: 14px;
+        font-size: 14px;
 	padding-right: 11px;
 }
 .list4 li span{
