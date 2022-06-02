@@ -323,7 +323,9 @@ margin-top: 120px;
 	flex-flow: column wrap;
 	row-gap: 26px;
 }
-.list2 li a,
+.list2 li a:hover{
+	color:#529fd0;
+}
 .list3 li a:hover{
 	color:#529fd0;
 }
