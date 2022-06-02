@@ -335,6 +335,11 @@ margin-top: 120px;
 	flex-flow: column wrap;
 	row-gap: 26px;
 }
+.list2 a,
+.list3 a:hover{
+	color:#529fd0;
+}
+	
 .ccc{
 	padding-bottom: 40px;
 }
