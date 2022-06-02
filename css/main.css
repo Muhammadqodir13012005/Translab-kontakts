@@ -212,11 +212,10 @@
 }
     
 .koment{
-    height: 170px;
     border: 2px solid #eaeaea;
     padding: 20px 29px;
     border-radius: 25px;
-    max-width: 480px;
+    width: 480px;
 }
 .zakaz span{
 	color: #fff;
