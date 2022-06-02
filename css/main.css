@@ -157,7 +157,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-	font-family: pro-sb;
+	
 
 }
 .span4{
@@ -176,18 +176,22 @@
 .p1{
     width: 235px;
     font-size: 20px;
+	font-family: pro-sb;
 }
 .p2{
     font-size: 20px;
     width: 184px;
     font-size: 20px;
+	font-family: pro-sb;
 }
 .p3{
     width: 196px;
     font-size: 20px;
+	font-family: pro-sb;
 }
 .p4{
     font-size: 20px;
+	font-family: pro-sb;
 }
 .block5{
     max-width: 550px;
