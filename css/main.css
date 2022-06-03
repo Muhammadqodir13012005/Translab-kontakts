@@ -1,5 +1,8 @@
 @import url(fonts.css);
 @import url(reset.css);
+
+/* .header {} */
+
 .wrap {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -53,6 +56,7 @@
 
 .top-menu li a.smm:hover {
 	background-color: #f1135c;
+	transition: 1s;
 }
 
 .top-menu li a span {
@@ -90,15 +94,16 @@
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	display: none;
-
 }
 
 .menu li a:hover {
 	color: #149df4;
+
 }
 
-.menu li a:hover::after {
+.menu li a:hover::after{
 	display: block;
+	
 }
 .title {
 	background: url(../img/titlebg.png) 50%/cover no-repeat;
@@ -147,7 +152,6 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-	
 
 }
 .span4{
@@ -157,12 +161,12 @@
 }
 
 .block4{
+	font-family: pro-r;
 	max-width: 504px; 
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	row-gap: 50px;
-	 font-family: pro-sb;
 }
 .p1{
     width: 235px;
@@ -176,13 +180,13 @@
 .p3{
     width: 196px;
     font-size: 20px;
-    font-family: pro-sb;
 }
 .p4{
     font-size: 20px;
-    font-family: pro-sb;
 }
 .block5{
+	font-family: pro-r;
+	font-size: 16px;
     max-width: 550px;
     display: flex; 
     flex-flow: row wrap;
@@ -212,11 +216,12 @@
 }
     
 .koment{
-    display:block;
+	height: 170px;
     border: 2px solid #eaeaea;
     padding: 20px 29px;
     border-radius: 25px;
     width: 480px;
+	max-width: 480px;
 }
 .zakaz span{
 	color: #fff;
@@ -246,6 +251,7 @@
 }
 .zakaz:hover{
 	background-color: #f1135c;
+	transition: 3s;
 }
 .footer{
 background-color: #173243;
@@ -294,6 +300,7 @@ margin-top: 120px;
 }
 .fb:hover{
 	background-color: #f1135c;
+	transition: 1s;
 }
 .s2{
 	margin-top: 21px;
@@ -304,6 +311,8 @@ margin-top: 120px;
 }
 .topmenu{
 	display: flex;
+	font-family: pro-r;
+	font-size: 16px;
 }
 
 .list1{
@@ -317,19 +326,20 @@ margin-top: 120px;
 	flex-flow: column wrap;
 	row-gap: 26px ;
 }
+.list2 a:hover{
+	color: #66c4ff ;
+	transition: 0.5s;
+}
+.list3 a:hover{
+	color: #66c4ff ;
+	transition: 0.5s;
+}
 .list3{
 	margin-right: 84px;
 	display: flex;
 	flex-flow: column wrap;
 	row-gap: 26px;
 }
-.list2 li a:hover{
-	color:#529fd0;
-}
-.list3 li a:hover{
-	color:#529fd0;
-}
-	
 .ccc{
 	padding-bottom: 40px;
 }
@@ -353,7 +363,7 @@ margin-top: 120px;
 	color: #fff;
 	font-family: pro-sb;
 	letter-spacing: 0.5px;
-        font-size: 14px;
+    font-size: 14px;
 	padding-right: 11px;
 }
 .list4 li span{
@@ -383,5 +393,4 @@ margin-top: 120px;
 .bottom-sos a {
 	text-decoration: underline;
     color: #7997aa;
-	transition: all .2s;
 }
